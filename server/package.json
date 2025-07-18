@@ -1,0 +1,71 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Full Stack MERN development assessment",
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "Mongo",
+    "TypeScript"
+  ],
+  "homepage": "https://github.com/Prashantch265/full-stack-mern-development#readme",
+  "bugs": {
+    "url": "https://github.com/Prashantch265/full-stack-mern-development/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prashantch265/full-stack-mern-development.git"
+  },
+  "license": "ISC",
+  "author": "Prashant Chaudhary",
+  "main": "server.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon",
+    "start": "node dist/index.js",
+    "test": "jest --runInBand"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.31.0",
+    "@types/compression": "^1.8.1",
+    "@types/cookie-parser": "^1.4.9",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/hpp": "^0.2.6",
+    "@types/jest": "^30.0.0",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^24.0.14",
+    "@types/supertest": "^6.0.3",
+    "eslint": "^9.31.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.5.1",
+    "jest": "^30.0.4",
+    "mongodb-memory-server": "^10.1.4",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
+    "supertest": "^7.1.3",
+    "ts-jest": "^29.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.37.0"
+  },
+  "dependencies": {
+    "@woocommerce/woocommerce-rest-api": "^1.0.2",
+    "axios": "^1.10.0",
+    "compression": "^1.8.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "glob": "^11.0.3",
+    "helmet": "^8.1.0",
+    "hpp": "^0.2.3",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.4",
+    "morgan": "^1.10.0",
+    "node-cron": "^4.2.1",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  }
+}
